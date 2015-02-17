@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Coaster</string>
+    <string name="new_coaster">New Coaster</string>
+    <string name="about">About Coaster</string>
+    <string name="about_button">About</string>
+    <string name="about_back_button">Back</string>
+    <string name="developer">Developer: SoBo Apps</string>
+    <string name="graphics">Graphics: SoBo Apps</string>
+    <string name="consulting">Consulting: Google/Stack Overflow</string>
+    <string name="license">License: GNU GPL</string>
+    <string name="disclaimer">Disclaimer: For entertainment only. We are not resposible for any damage to your device.</string>
+    
+    <string name="test">TDisclaimer: For entertainment only. We are not resposible for any damage</string>
+
+    <style name="PrettyButton">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+    
+        <!--  Coaster text -->
+        <string name="stCoaster0">People who think they know everything are a great annoyance to those of us who do.</string>
+		<string name="stCoaster1">I am sorry, if you were right I\'d agree with you.</string>
+		<string name="stCoaster2">Get your facts first, then you can distort them as you please.</string>
+		<string name="stCoaster3">I never forget a face, but in your case I\’d be glad to make an exception.</string>
+		<string name="stCoaster4">I\'m not clumsy. It\'s just the floor hates me, the tables and chairs are bullies, and the walls get in the way.</string>
+		<string name="stCoaster5">I ment to behave but there were too many other options.</string>
+		<string name="stCoaster6">If you are stlil albe to raed tihs, yuor stlil soebr.</string>
+		<string name="stCoaster7">8 Planets, 204 Countries, 7 Seas, 7,000,000,000 + People,\nAND I\'M STILL SINGLE!</string>
+		<string name="stCoaster8">I don\'t get Drunk - I get Awesome.</string>
+		<string name="stCoaster9">TIME is precious... Waste it wisely.</string>
+		<string name="stCoaster10">Sometimes I listen\nto strangers conversations and mentally give my opinion.</string>
+		<string name="stCoaster11">\"I\'am a Ninja.\"\n\"No, you\'re not.\"\n\"Did you see\nme do that?\"\n\"Do what?\"\n\"EXACTLY!\"</string>
+		<string name="stCoaster12">Sometimes I drink water just to surprise my liver...</string>
+		<string name="stCoaster13">Hand me the booze and watch me get FABULOUS!</string>
+		<string name="stCoaster14">Dinner\nis\nPoured.</string>
+		<string name="stCoaster15">Spooning leads\n \nto Forking.</string>
+		<string name="stCoaster16">If you drink,\ndon\'t drive.\nDon\'t even putt.</string>
+		<string name="stCoaster17">I\'m gonna drink\nyou into an 8.</string>
+		<string name="stCoaster18">Everybody\'d got to believe in something. I believe i\'ll have another drink.</string>
+		<string name="stCoaster19">Bad decisions make\nfor good stories.</string>
+		<string name="stCoaster20">Candy is dandy,\nbut liquor\nis quicker.</string>
+		<string name="stCoaster21">I\'m on a whiskey diet. I\'ve lost three days already.</string>
+		
+</resources>

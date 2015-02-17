@@ -1,0 +1,61 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    tools:context="com.soboapps.coaster.About" >
+
+    <TextView
+        android:id="@+id/about_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:textColor="#33b5e5"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/version_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:text="x.x" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/table_2"
+        android:fitsSystemWindows="true" >
+
+        <LinearLayout
+            android:id="@+id/about_content_controls"
+            style="?metaButtonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@color/black_overlay"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent" >
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="523dp"
+            android:layout_height="match_parent"
+            android:id="@+id/about_imageView"
+            android:layout_gravity="center"
+            android:background="@drawable/disclaimer" />
+
+        <Button
+            android:id="@+id/back_button"
+            style="@style/PrettyButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            android:background="@drawable/greybutton"
+            android:gravity="center"
+            android:text="@string/about_back_button" />
+
+    </FrameLayout> <!-- The Version will be set in java code -->
+		
+</FrameLayout>
